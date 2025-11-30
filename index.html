@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniformes Escolares Direto da Fábrica | Qualidade e Confiança</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="script.js" rel="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+ 
+    
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+
+            <a href="#">
+                <img src="/wsuniformeslogo.png" alt="Logo da Fábrica de Uniformes" class="h-12">
+            </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#produtos" class="text-gray-600 hover:text-blue-800 transition duration-300">Produtos</a>
+                <a href="#diferenciais" class="text-gray-600 hover:text-blue-800 transition duration-300">Diferenciais</a>
+                <a href="https://wa.me/5562985222020" class="bg-yellow-400 text-blue-900 font-bold py-2 px-4 rounded-full hover:bg-yellow-500 transition duration-300">Solicitar Orçamento</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#produtos" class="block py-2 text-gray-600 hover:text-blue-800">Produtos</a>
+            <a href="#diferenciais" class="block py-2 text-gray-600 hover:text-blue-800">Diferenciais</a>
+            <a href="https://wa.me/5562985222020" class="block mt-2 w-full text-center bg-yellow-400 text-blue-900 font-bold py-2 px-4 rounded-full hover:bg-yellow-500">Solicitar Orçamento</a>
+        </div>
+    </header>
+
+    <section class="hero-bg text-white">
+        <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Uniformes Escolares de Qualidade Superior</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Conforto, durabilidade e identidade para sua escola. Produzimos uniformes completos com os melhores tecidos e preços competitivos.</p>
+            <a href="https://wa.me/5562985222020" class="bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded-full text-lg hover:bg-yellow-500 transition duration-300">WhatsApp</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-2">Nossa Linha de Produtos</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Oferecemos uma solução completa em uniformes, personalizando cada peça com o logo da sua escola.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="/calcabermuda.png" alt="Camiseta Escolar" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-800">Calças e Bermudas</h3>
+                        <p class="text-gray-600">Malha de algodão ou PV, confortáveis para o dia a dia e atividades físicas.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="camiseta.png" alt="Camiseta" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-800">Camisetas</h3>
+                        <p class="text-gray-600">Tecido piquet de alta qualidade, ideal para um visual mais formal e eventos.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="/saias.png" alt="Saias" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-800">Saias</h3>
+                        <p class="text-gray-600">Modelos em tactel, helanca ou brim, com costuras reforçadas para maior durabilidade.</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden text-center">
+                    <img src="/agasalho.png" alt="Agasalhos Escolares" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-800">Agasalhos e Jaquetas</h3>
+                        <p class="text-gray-600">Opções em moletom e tactel forrado, perfeitos para os dias mais frios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Por que escolher nossa fábrica?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2 text-blue-800">Qualidade e Durabilidade</h3>
+                    <p class="text-gray-600">Utilizamos tecidos selecionados e costura reforçada para garantir uniformes que resistem a todo o ano letivo.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2 text-blue-800">Preço Direto da Fábrica</h3>
+                    <p class="text-gray-600">Elimine intermediários e garanta o melhor custo-benefício para a sua escola e para os pais dos alunos.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2 text-blue-800">Pontualidade na Entrega</h3>
+                    <p class="text-gray-600">Temos um processo de produção otimizado para cumprir rigorosamente os prazos combinados com a sua instituição.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-20 bg-blue-800 text-white">
+        <div class="container mx-auto px-6">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h2 class="text-3xl font-bold mb-4">Vamos vestir o futuro da sua escola?</h2>
+                    <p class="mb-6 text-blue-100">Preencha o formulário e nossa equipe entrará em contato para entender suas necessidades e preparar um orçamento sem compromisso.</p>
+                    <p class="text-blue-100">Se preferir, fale conosco:</p>
+                    <p class="font-semibold">WhatsApp: (62) 98522-2020</p>
+                    <p class="font-semibold">E-mail: contato@wsuniformesgo.com.br</p>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="bg-white text-gray-800 rounded-lg shadow-xl p-8">
+                        <form id="contact-form">
+                            <div class="mb-4">
+                                <label for="escola" class="block text-gray-700 font-bold mb-2">Nome da Escola*</label>
+                                <input type="text" id="escola" name="escola" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="nome" class="block text-gray-700 font-bold mb-2">Seu Nome*</label>
+                                <input type="text" id="nome" name="nome" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-bold mb-2">E-mail para Contato*</label>
+                                <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                             <div class="mb-4">
+                                <label for="telefone" class="block text-gray-700 font-bold mb-2">Telefone / WhatsApp*</label>
+                                <input type="tel" id="telefone" name="telefone" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-6">
+                                <label for="mensagem" class="block text-gray-700 font-bold mb-2">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Gostaria de um orçamento para 200 alunos, do infantil ao fundamental."></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-yellow-400 text-blue-900 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 text-lg">Enviar via WhatsApp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 WS Uniformes. Todos os direitos reservados.</p>
+            <p class="text-gray-400">Desenvolvido por <a href="https://trinitydigital.com.br" target="_blank">Trinity Digital</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
